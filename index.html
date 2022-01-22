@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-project-3</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <!-- font awesome stylesheet-->
+    <script src="https://kit.fontawesome.com/290710d7ca.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header>
+        <section class="container">
+            <!-- nevbar start -->
+            <nav class="navbar navbar-expand-lg navbar-light py-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn header-btn text-white">Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar end -->
+            <div class="row align-items-center text-white py-4 my-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn header-btn text-white px-5" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="staticBackdropLabel">motorcycle</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-dark">Bick's is a Canadian pickle producer originally based out of
+                                        Scarborough,
+                                        Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..
+
+                                        Bick's emerged in 1951 in the Toronto area when local farmers George and Lena
+                                        Bick and their sons Walter and Thomas began to pickle the cucumbers produced on
+                                        their Knollview farm.[1][2] Beginning as a small operation of 60,000 jars, the
+                                        Bicks produced 12 million jars in 1960.[1] The business was sold in 1966 to
+                                        Kraft Foods Canada and later became part of International Multifoods.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+    <main>
+        <!-- Fetured bick section start -->
+        <section class="container my-5">
+            <div class="text-center py-5">
+                <h1>Fetured Bicks 2021</h1>
+                <p class="text-danger fw-bold">Best bick collection</p>
+            </div>
+            <div class="row py-5 g-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <img class="img-fluid Fetured-bike" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <img class="img-fluid Fetured-bike" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Fetured bick section end -->
+
+        <!-- Latest News start -->
+        <section class="container">
+            <div class="text-center my-5 py-5">
+                <h1>Latest <span class="header-title">News</span></h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card h-100">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ducati XDIAVELS-73</h5>
+                            <p class="card-text">Bick's is a Canadian pickle producer originally based out of
+                                Scarborough,
+                                Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..</p>
+                            <a href="#" class="btn btn-danger">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card h-100">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">motorcycles & Scooters</h5>
+                            <p class="card-text">Bick's is a Canadian pickle producer originally based out of
+                                Scarborough,
+                                Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..</p>
+                            <button type="button" class="btn btn-outline-danger">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card h-100">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                            <p class="card-text">Bick's is a Canadian pickle producer originally based out of
+                                Scarborough,
+                                Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..</p>
+                            <button type="button" class="btn btn-outline-danger">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest News end -->
+
+        <!-- happy client section start -->
+        <section class="container">
+            <div class="text-center my-5 py-5">
+                <h1>Happy <span class="header-title">Client Says</span></h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card h-80 text-center py-5">
+                        <img src="images/user-1.png" class="rounded-circle mx-auto d-block img-fluid " width="150"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                            <div class="header-title mb-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h6 class="fw-bold text-primary">Regina Miles</h6>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card h-80 text-center py-5">
+                        <img src="images/user-2.png" class="rounded-circle mx-auto d-block img-fluid " width="150"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                            <div class="header-title mb-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h6 class="fw-bold text-primary">Regina Miles</h6>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card h-80 text-center py-5">
+                        <img src="images/Tim-circle-headshot-2.png" class="rounded-circle mx-auto d-block img-fluid "
+                            width="150" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                            <div class="header-title mb-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h6 class="fw-bold text-primary">Regina Miles</h6>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- happy client section end -->
+
+        <!-- Frequently Asked Questions section start -->
+        <section class="container ">
+            <div class="text-center my-5 py-5">
+                <h1>Frequently Asked<span class="header-title"> Questions</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img src="images/faq.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <p class="fw-bold text-dark">what are the most important things i should know about
+                                        riding a bick ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Bick's is a Canadian pickle producer originally based out of
+                                        Scarborough,
+                                        Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..
+
+                                        Bick's emerged in 1951 in the Toronto area when local farmers George and Lena
+                                        Bick and their sons Walter and Thomas began to pickle the cucumbers produced on
+                                        their Knollview farm.[1][2] Beginning as a small operation of 60,000 jars, the
+                                        Bicks produced 12 million jars in 1960.[1] The business was sold in 1966 to
+                                        Kraft Foods Canada and later became part of International Multifoods.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <p class="fw-bold text-dark">How can i tell if my helmet is old and i need a now one
+                                        ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Bick's is a Canadian pickle producer originally based out of
+                                        Scarborough,
+                                        Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..
+
+                                        Bick's emerged in 1951 in the Toronto area when local farmers George and Lena
+                                        Bick and their sons Walter and Thomas began to pickle the cucumbers produced on
+                                        their Knollview farm.[1][2] Beginning as a small operation of 60,000 jars, the
+                                        Bicks produced 12 million jars in 1960.[1] The business was sold in 1966 to
+                                        Kraft Foods Canada and later became part of International Multifoods.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <p class="fw-bold text-dark">My bicke has been in storage is it safe to ride ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Bick's is a Canadian pickle producer originally based out of
+                                        Scarborough,
+                                        Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..
+
+                                        Bick's emerged in 1951 in the Toronto area when local farmers George and Lena
+                                        Bick and their sons Walter and Thomas began to pickle the cucumbers produced on
+                                        their Knollview farm.[1][2] Beginning as a small operation of 60,000 jars, the
+                                        Bicks produced 12 million jars in 1960.[1] The business was sold in 1966 to
+                                        Kraft Foods Canada and later became part of International Multifoods.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                                    <p class="fw-bold text-dark">What rules should i follow when riding my bike ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Bick's is a Canadian pickle producer originally based out of
+                                        Scarborough,
+                                        Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..
+
+                                        Bick's emerged in 1951 in the Toronto area when local farmers George and Lena
+                                        Bick and their sons Walter and Thomas began to pickle the cucumbers produced on
+                                        their Knollview farm.[1][2] Beginning as a small operation of 60,000 jars, the
+                                        Bicks produced 12 million jars in 1960.[1] The business was sold in 1966 to
+                                        Kraft Foods Canada and later became part of International Multifoods.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Asked Questions section end -->
+
+        <!-- Bick progress section start -->
+        <section class="container">
+            <div class="text-center my-5 py-5">
+                <h1>Bick <span class="header-title">Progress</span></h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img src="images/bike-4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <span>Comfort & Control</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <br>
+                    <span>Fule</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <br>
+                    <span>Service center</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <br>
+                    <span>Design</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <br>
+                    <span>Design</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bick progress section end -->
+
+        <!-- about us section start -->
+        <section class="container">
+            <div class="text-center my-5 py-5">
+                <h1>About <span class="header-title">Us</span></h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <p class="">Bick's is a Canadian pickle producer originally based out of
+                        Scarborough,
+                        Ontario. The brand is now sold in Canada by U.S.-based The J.M. Smucker Co..
+
+                        Bick's emerged in 1951 in the Toronto area when local farmers George and Lena
+                        Bick and their sons Walter and Thomas began to pickle the cucumbers produced on
+                        their Knollview farm. Beginning as a small operation of 60,000 jars, the
+                        Bicks produced 12 million jars in 1960. The business was sold in 1966 to
+                        Kraft Foods Canada and later became part of International Multifoods.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img src="images/642d864a4e71ef95b837513501fe71e2.jpg" class="img-fluid rounded w-100" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- about us section end -->
+    </main>
+    <!-- main section end -->
+
+    <!-- footer section start -->
+    <footer class="bg-body mt-5">
+        <div class="container">
+            <div class="row py-5 justify-content-between">
+                <div class=" col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                    <div class="footer-btn ">
+                        <a href="#" class="text-white">Download Now</a>
+                        <a href="#" class="text-white">License</a>
+                    </div>
+                    <br>
+                    <div class="footer-btn">
+                        <a href="#" class="text-white">About</a>
+                        <a href="#" class="text-white">Features</a>
+                        <a href="#" class="text-white">Pricing</a>
+                        <a href="#" class="text-white">Careers</a>
+                        <a href="#" class="text-white">Help</a>
+                        <a href="#" class="text-white">Privacy Policy</a>
+                    </div>
+                    <br>
+                    <p class="text-white">&copy;2021 bike all rights reserved</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+                    <h4 class="text-white">Get The App</h4>
+                    <a href="#"><img src="images/444-4447595_google-play-store-apple.png" class="img-fluid " width="150"
+                            alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+/* Universal style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 200;
+}
+.header-title{
+    color: #E76F51;
+    
+}
+/* header section style */
+header{
+    background-color: #264653;
+    height: 800px;
+}
+.header-btn{
+    background-color: #E76F51;
+    font-weight: 700;
+}
+
+/* main section style */
+
+/* fetured-bick section style */
+.Fetured-bike{
+    filter: grayscale(100%);
+}
+
+/* happy client section style */
+.client-img {
+    border-radius: 100%;
+    width: 80px;
+}
+
+/* footer section style */
+.footer-btn a{
+    text-decoration: none;
+    padding: 5px;
+}
